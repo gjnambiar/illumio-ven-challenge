@@ -7,5 +7,4 @@ the original address and the flow were matched. Also maps in C++ uses a simple o
 process and seprarated the addresses with "*" and those without. 
 As of now the run time would be O(MN). If I had more time I woulf try to reach an effiency of O(N), if possible.
 For this cahhlenge I made the assumption that the ip adress and the port will either be a valid numeric sequence 
-or a "*". I did not code for an ip value like "2.\*.3.4.5". I also made sure that if a numeric squence was available 
-the translation would follow that original address, rather than one with a "*".
+or a "*". I did not code for an ip value like "2.\*.3.4.5". I made this assumption based on my knowledge of how ip addresses are structured and the sample inputs provided. I also made sure that if a numeric squence was available the translation would follow that original address, rather than one with a "*".
